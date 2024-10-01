@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.top {
+  background-image: url(Images/Background-Image.webp);
+  background-size: cover;
+  height: 700px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  color: white;
+  font-size: 1.3rem;
+}
+.chasEmblem {
+  float: left;
+}
+nav a {
+  margin: 10px;
+}
+.navButton {
+  border-radius: 25px;
+  background-color: lightblue;
+  color: white;
+  padding: 15px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.heroTitle {
+  max-width: 300px;
+  text-align: center;
+}
+.heroTitle2 {
+  max-width: 300px;
+  text-align: center;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 600px;
+}
+.bottomImage {
+  margin: 75px;
+  float: left;
+}
+.informationText {
+  padding: 100px;
+  font-size: 20px;
+}
+button {
+  border-radius: 50px;
+  padding: 15px;
+}
+.rekommendationer {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  height: 400px;
+  padding: 20px;
+  align-items: center;
+}
+.rekommendationBox {
+  display: flex;
+  flex-direction: row;
+}
+.rekommendationerText1 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.rekommendationerText2 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.rekommendationerText3 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.actionText {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: lightgray;
+}
+.footer1 {
+  list-style-type: none;
+  padding: 50px;
+  margin: 30px;
+}
+.footer2 {
+  list-style-type: none;
+  padding: 50px;
+  margin: 30px;
+}
+.loggo {
+  text-align: center;
+  display: inline-block;
+}
